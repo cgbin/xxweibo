@@ -28,10 +28,10 @@
 
 ## 步骤
 
-步骤一
-先导入根目录下的sql数据库文件
+步骤一  
+先导入根目录下的weibo.sql数据库文件
 
-步骤二
+步骤二  
 配置数据库，打开 \App\Common\Conf\config.php 文件，修改下面的内容：
 
 ```
@@ -46,7 +46,7 @@
 
 
 
-步骤1
+步骤1  
 设置 Uploads 目录和 App/Runtime  权限为 777
 
 ```
@@ -54,7 +54,7 @@ chmod -R  777 Uploads
 chmod -R  777 App/Runtime 
 ````
 
-步骤2
+步骤2  
 配置伪静态并设置 meedu 的运行目录为 public 。
 
 伪静态规则（Nginx）：
@@ -66,8 +66,8 @@ location / {
 ```
 
 
-步骤3
+步骤3  
 到这里，网站可以正常访问了。
 
-后台登录地址：http://youdomain.com/Admin/Index/index
+后台登录地址：http://youdomain.com/Admin/Index/index  
 超级管理员账号: admin  密码: woshiadmin
