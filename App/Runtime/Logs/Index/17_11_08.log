@@ -1,0 +1,42 @@
+[ 2017-11-08T13:26:41+08:00 ] 39.178.161.218 /Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2] file_put_contents(./App/Runtime/Cache/Index/6485c3daa56c82360338ff6c01553b2e.php): failed to open stream: Permission denied /var/www/html/weibo/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./App/Runtime/Cache/Index/6485c3daa56c82360338ff6c01553b2e.php
+
+[ 2017-11-08T13:26:44+08:00 ] 39.178.161.218 /Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [2] file_put_contents(./App/Runtime/Cache/Index/6485c3daa56c82360338ff6c01553b2e.php): failed to open stream: Permission denied /var/www/html/weibo/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./App/Runtime/Cache/Index/6485c3daa56c82360338ff6c01553b2e.php
+
+[ 2017-11-08T13:26:51+08:00 ] 39.178.161.218 /Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [2] file_put_contents(./App/Runtime/Cache/Index/6485c3daa56c82360338ff6c01553b2e.php): failed to open stream: Permission denied /var/www/html/weibo/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./App/Runtime/Cache/Index/6485c3daa56c82360338ff6c01553b2e.php
+

@@ -1,0 +1,2279 @@
+[ 2017-10-02T15:53:06+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.150009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.0200s ]
+SQL: SELECT `id`,`lock` FROM `hd_user` WHERE `account` = 'admin2' LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-10-02T15:53:07+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T15:53:12+08:00 ] ::1 /php/index.php/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T15:53:18+08:00 ] ::1 /php/index.php/Index/Common/uploadPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\PHP\htdocs\php\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T16:01:03+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0090s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T16:01:03+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:01:07+08:00 ] ::1 /php/index.php/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T16:01:10+08:00 ] ::1 /php/index.php/Index/Common/uploadPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\PHP\htdocs\php\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T16:05:24+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T16:05:24+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:05:26+08:00 ] ::1 /php/index.php/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T16:05:28+08:00 ] ::1 /php/index.php/Index/Common/uploadPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\PHP\htdocs\php\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T16:19:58+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:20:17+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T16:20:18+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:20:20+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T16:20:21+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:20:23+08:00 ] ::1 /php/index.php/Index/Index/index/gid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T16:20:23+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:20:24+08:00 ] ::1 /php/index.php/Index/Index/index/gid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T16:20:24+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:20:25+08:00 ] ::1 /php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T16:20:25+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:20:26+08:00 ] ::1 /php/index.php/Index/User/keep
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-10-02T16:20:27+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T16:20:28+08:00 ] ::1 /php/index.php/Index/User/letter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:User
+
+[ 2017-10-02T16:20:30+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:11:05+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0150s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:11:06+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:11:08+08:00 ] ::1 /php/index.php/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:11:14+08:00 ] ::1 /php/index.php/Index/Common/uploadPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\PHP\htdocs\php\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T21:11:33+08:00 ] ::1 /php/index.php/Index/Index/sendWeibo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0130s ]
+SQL: INSERT INTO `hd_weibo` (`content`,`time`,`uid`) VALUES ('666[嘻嘻]','1506949893','4') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0090s ]
+SQL: INSERT INTO `hd_picture` (`max`,`medium`,`wid`) VALUES ('20171002/max_59d23af202cbf.jpg','20171002/medium_59d23af202cbf.jpg','1') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T21:11:34+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0050s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T21:11:34+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:53:51+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0420s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0090s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+
+[ 2017-10-02T21:53:52+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0060s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0020s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+
+[ 2017-10-02T21:53:53+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0060s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0070s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+
+[ 2017-10-02T21:54:04+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0070s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:54:05+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:54:13+08:00 ] ::1 /php/index.php/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0070s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:54:17+08:00 ] ::1 /php/index.php/Index/Common/uploadPic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\PHP\htdocs\php\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T21:54:18+08:00 ] ::1 /php/index.php/Index/Index/sendWeibo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0050s ]
+SQL: INSERT INTO `hd_weibo` (`content`,`time`,`uid`) VALUES ('666[嘻嘻]','1506952458','4') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0060s ]
+SQL: INSERT INTO `hd_picture` (`max`,`medium`,`mini`,`wid`) VALUES ('20171002/max_59d245091cdb8.png','20171002/medium_59d245091cdb8.png','20171002/mini_59d245091cdb8.png','2') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:54:20+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0050s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0030s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T21:54:20+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:54:30+08:00 ] ::1 /php/index.php/Index/Index/sendWeibo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0070s ]
+SQL: INSERT INTO `hd_weibo` (`content`,`time`,`uid`) VALUES ('233[可爱]','1506952469','4') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:54:36+08:00 ] ::1 /php/index.php/Index/Index/sendWeibo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0120s ]
+SQL: INSERT INTO `hd_weibo` (`content`,`time`,`uid`) VALUES ('233[可爱]','1506952476','4') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:54:52+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:54:55+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0040s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T21:54:55+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:55:13+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0070s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+
+[ 2017-10-02T21:55:40+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0080s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0060s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T21:55:40+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:56:06+08:00 ] ::1 /php/index.php/Index/Search/sechUser?keyword=nihao
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_userinfo` WHERE `username` LIKE '%nihao%' AND `uid` <> '4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username`,`sex`,`location`,`constellation`,`intro`,`face80`,`follow`,`fans`,`weibo`,`uid` FROM `hd_userinfo` WHERE `username` LIKE '%nihao%' AND `uid` <> '4' LIMIT 0,3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0050s ]
+SQL: (select `follow` from hd_follow where `follow`=5 and `fans`=4) union
+             (select `follow` from hd_follow where `follow`=4 and `fans`=5 ) [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_follow` WHERE `follow` = 5 AND `fans` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: (select `follow` from hd_follow where `follow`=6 and `fans`=4) union
+             (select `follow` from hd_follow where `follow`=4 and `fans`=6 ) [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_follow` WHERE `follow` = 6 AND `fans` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: (select `follow` from hd_follow where `follow`=7 and `fans`=4) union
+             (select `follow` from hd_follow where `follow`=4 and `fans`=7 ) [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_follow` WHERE `follow` = 7 AND `fans` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 93 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 93 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 93 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 93 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 139 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 139 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 139 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\50bb062933b126d81197e968abf01a25.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T21:56:07+08:00 ] ::1 /php/index.php/Index/Search/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:56:29+08:00 ] ::1 /php/index.php/Index/Index/loginOut
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T21:56:31+08:00 ] ::1 /php/index.php/Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T21:57:04+08:00 ] ::1 /php/index.php/Index/Login/loginhandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_user` WHERE `account` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:57:06+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0050s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 5  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0040s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=5 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T21:57:06+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:57:12+08:00 ] ::1 /php/index.php/Index/Index/sendWeibo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0030s ]
+SQL: INSERT INTO `hd_weibo` (`content`,`time`,`uid`) VALUES ('888','1506952632','5') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-02T21:57:32+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:57:35+08:00 ] ::1 /php/index.php/Index/Index/loginOut
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T21:57:37+08:00 ] ::1 /php/index.php/Index/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:57:45+08:00 ] ::1 /php/index.php/Index/Login/loginhandle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hd_user` WHERE `account` = 'admin2' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:57:46+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0080s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0050s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 218 行.
+NOTIC: [8] Undefined variable: page G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 413 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 421 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 422 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 426 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: follow G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 430 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: fans G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 431 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: weibo G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 433 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 446 行.
+NOTIC: [8] Undefined variable: face G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 447 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: username G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 450 行.
+NOTIC: [8] Undefined variable: count G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 451 行.
+NOTIC: [8] Undefined variable: uid G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 453 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T21:57:46+08:00 ] ::1 /php/index.php/Index/Index/getMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:getMsg
+
+[ 2017-10-02T21:57:57+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0060s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0060s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+
+[ 2017-10-02T22:03:27+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0070s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+
+[ 2017-10-02T22:03:52+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0060s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0060s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+
+[ 2017-10-02T22:04:22+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0070s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+
+[ 2017-10-02T22:04:23+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0040s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0020s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+
+[ 2017-10-02T22:04:45+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0070s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+
+[ 2017-10-02T22:04:46+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0070s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0060s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+
+[ 2017-10-02T23:56:19+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:56:33+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_follow` [ RunTime:0.0450s ]
+SQL: SELECT `follow` FROM `hd_follow` WHERE `fans` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.0050s ]
+SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.time AS time,weibo.keep AS keep,weibo.comment AS comment,weibo.uid AS uid,userinfo.face50 AS face,userinfo.username AS username,picture.max AS max,picture.mini AS mini,picture.medium AS medium FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid=userinfo.uid LEFT JOIN hd_picture picture ON weibo.id=picture.wid WHERE weibo.uid IN ('4','5')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `style` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `hd_userinfo` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hd_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hd_group` WHERE `uid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 105 行.
+SQL: SELECT * FROM `hd_group` WHERE ( uid=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+NOTIC: [8] Undefined variable: id G:\PHP\htdocs\php\App\Runtime\Cache\Index\15e223c0f5bbcfc1b7e998e4a4f1b680.php 第 151 行.
+
+[ 2017-10-02T23:56:50+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:56:51+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:56:52+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:56:53+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:56:53+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:56:53+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:56:53+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:56:54+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:56:54+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:56:54+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:02+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:03+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:13+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:57:21+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:24+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:57:25+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:57:25+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:26+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:57:26+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:27+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:27+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:28+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T23:57:28+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:57:49+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:50+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:57:50+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:58:26+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:58:27+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:58:34+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:58:35+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-02T23:58:50+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:58:51+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:58:51+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-02T23:58:51+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:58:52+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:59:18+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:59:38+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-02T23:59:38+08:00 ] ::1 /php/index.php/Index/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
