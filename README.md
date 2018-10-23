@@ -61,7 +61,10 @@ chmod -R  777 App/Runtime
 
 ```
 location / {
-	try_files $uri $uri/ /index.php$is_args$query_string;
+if (!-e $request_filename) {
+   rewrite  ^(.*)$  /index.php?s=$1  last;
+   break;
+}
 }
 ```
 
